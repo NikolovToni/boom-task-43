@@ -7,9 +7,4 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
-
-  const newMessage = "One new messages";
-  setInterval(() => {
-    document.querySelector("title").innerHTML = newMessage;
-  }, 3000);
 });
